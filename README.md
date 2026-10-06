@@ -1,16 +1,61 @@
-# React + Vite
+# Hospital Management System — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive React-based frontend for a Hospital Management System. The application provides interfaces for patients, doctors, and hospital administrators to interact with hospital services, appointments, doctors, departments, and scheduling features.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Patient/User Features
 
-## React Compiler
+* Hospital home page
+* User registration and login
+* Doctor listing and doctor profiles
+* Department listing and department details
+* Appointment booking
+* Appointment availability
+* Booking results
+* My appointments
+* Protected routes
+* Responsive navigation and layouts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Hospital & Doctor Features
 
-## Expanding the Oxlint configuration
+* Doctor information and profiles
+* Department information
+* Appointment scheduling interface
+* Availability and slot selection
+* Reusable cards and UI components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Admin Features
+
+* Admin dashboard
+* Doctor management interface
+* Department management interface
+* Appointment management
+* Schedule management
+* Notification interface
+* Audit log interface
+* Protected admin routes
+
+## 🛠️ Technology Stack
+
+* **React**
+* **Vite**
+* **JavaScript**
+* **React Router**
+* **Lucide React**
+* **CSS**
+* **Vitest**
+* **React Testing Library**
+* **Oxlint**
+
+## 📁 Project Structure
+
+```text
+src/
+├── api/                  # API integration modules
+├── assets/               # Images and application assets
+├── components/
+│   ├── admin/            # Admin-specific components
+│   ├── cards/            # Reusable card components
+│   ├── common/           # Common reusable UI components
+```
